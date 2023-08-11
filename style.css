@@ -21,6 +21,8 @@ body {
 }
 .flex {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .body-style {
     justify-content: center;
@@ -52,12 +54,14 @@ button {
     cursor: pointer;
     transition: 200ms;
     border: none;
-    border-radius: 5px;
-    outline: 1px solid gray;
+    height: 3rem;
 }
 button:hover {
-    background-color: #88f5ac;
+    background-color: #82c5e4;
 }
 button:active {
-    transform: scale(96%);
+    background-color: #69b9df;
+}
+img {
+    user-select: none;
 }
